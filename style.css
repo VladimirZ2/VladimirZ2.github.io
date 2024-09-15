@@ -570,7 +570,6 @@ main > footer {
 
 .flexbox > div {
   list-style: none;
-  justify-content: right;
 }
 
 .flexbox > div > li > a {
