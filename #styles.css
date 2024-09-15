@@ -1,0 +1,13 @@
+body {
+    background-color: hotpink;
+}
+
+body > header {
+    background-color: blue;
+    display: flex;
+    height: 12vh;
+}
+
+header {
+    background-color: blue;
+}

@@ -1,192 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlog</title>
-</head>
-<body>
-<header>
-    <!-- the content of the headder goes here -->
-     <h1 id="logo">BrightBlog</h1>
-     <nav>
-        <ul id="nav-ul">
-            <li>
-                <a href="https://code.visualstudio.com/docs/?dv=osx" class="navbutton">Home</a>
-            </li>
-            <li>
-                <a href="https://code.visualstudio.com/docs/?dv=osx" class="navbutton">About us</a>
-            </li>
-            <li>
-                <a href="https://code.visualstudio.com/docs/?dv=osx" class="navbutton">Contact</a>
-            </li>
-        </ul>
-     </nav>
-</header>
-<main>
-    <div id="main-content">
-        <aside>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetHive</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="left-side">
+                <div class="paw">
+                    <i class="fa fa-paw"></i>
+                </div>
+              <div class="logo"> PetHive</div>
+              <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="news">News</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="fire">Fire Missiles</a>
+                    </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="right-side">
+              <div class="register"> <li>Register</li></div>
+              <div class="login"><li>Login</li></div>
+            </div>
+          </header>
+        <main>
+            <article>
+                <hgroup>
+                    <h2>"PetHive"</h2>
+                    <h3>- A Trusted Marketplace for Happy Pets and Loving Homes</h3>
+                    <p>
+                        We offer an extensive catalog of pets to suit every lifestyle and preference. From playful puppies to affectionate kittens, exotic birds to charming bears, we have a wide variety of animals, each with their own unique personality and charm. To make your decision even easier, each pet is accompanied by a detailed description and an algorithm-based rating that evaluates traits like temperament, energy level, and care needs. This system helps you quickly identify which pet will best fit your lifestyle, making the selection process smooth and stress-free. Explore our catalog today and find your perfect companion with confidence!
+                    </p>
+                    <button class="read-more">Read More</button>
+                </hgroup>
+                    <img class="bear" src="https://placebear.com/500/300" alt="Bear Picture">
+                    <img class="dog" src="https://images.dog.ceo/breeds/gaddi-indian/Gaddi.jpg", alt="Dog Picture">
+                    <img class="cat" src="http://theoldreader.com/kittens/300/300/" alt="Cat Picture">
+                    <img class="bear1" src="https://placebear.com/300/300" alt="Bear Picture">
+                </main>
+            </article>
+        </main>
+        <main>
+    </body>
+    <body class="body2">
+        <header class="header2">
+            <h2>Your Perfect Companion is a Click Away!</h2>
+        </header>
+        <main class="second-main">
+            <aside>
+                <!--Filter goes here-->
+                <section>
+                    <h2>Filter by Animals</h2>
+                    <nav class="animal">
+                        <ul>
+                            <li><a href="">Dogs</a></li>
+                            <li><a href="">Cats</a></li>
+                            <li><a href="">Bears</a></li>
+                            <li><a href="">Others</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Filter by Personality</h2>
+                    <nav class="personality">
+                        <ul>
+                            <li><a href="main/personality/playful">Playful</a></li>
+                            <li><a href="main/personality/loyal">Loyal</a></li>
+                            <li><a href="main/personality/affectionate">Affectionate</a></li>
+                            <li><a href="main/personality/adventurous">Adventurous</a></li>
+                            <li><a href="main/personality/calm">Calm</a></li>
+                            <li><a href="main/personality/energetic">Energetic</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Filter by Age</h2>
+                    <nav class="age">
+                        <ul>
+                            <li><a href="main/personality/baby">Baby</a></li>
+                            <li><a href="main/personality/young">Young</a></li>
+                            <li><a href="main/personality/adult">Adult</a></li>
+                            <li><a href="main/personality/senior">Senior</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h2>Filter by Actvity</h2>
+                    <nav class="activity">
+                        <ul>
+                            <li><a href="main/personality/potato">Couch Potato</a></li>
+                            <li><a href="main/personality/moderatly">Moderatly Active</a></li>
+                            <li><a href="main/personality/active">Active</a></li>
+                            <li><a href="main/personality/hyper">Hyper Active</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+            <article>
+                <h2>Choose your Companion</h2>
+                <h3>Just Browse and Select Your Favourite!</h3>
+                <div class="dogs">
+                    <div class="d1">
+                        <img class="dog1" src="https://images.dog.ceo/breeds/pointer-germanlonghair/hans3.jpg" alt="dogs">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Max</h3>
+                        <p>Max is a friendly and affectionate Golden Retriever who loves being around people. His gentle nature and playful demeanor make him an ideal companion for families with children or other pets. He's energetic but also knows how to relax when it’s time for quiet cuddles.
+                        </p>
+                    </div>
+                    <div class="d2">
+                        <img class="dog2" src="https://images.dog.ceo/breeds/tervuren/yoda_in_sofa.jpg" alt="dogs">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Bella</h3>
+                        <p>Bella is an energetic and intelligent Border Collie with a love for adventure. She thrives in active environments and enjoys having tasks to keep her engaged. While she’s extremely loyal and affectionate with her owners, she can be a bit shy around new people but warms up quickly.
+                        </p>
+                    </div>
+                    <div class="d3">
+                        <img class="dog3" src="https://images.dog.ceo/breeds/hound-afghan/n02088094_4195.jpg" alt="dogs">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Rocky</h3>
+                        <p>Rocky is a curious and independent Beagle who loves exploring his surroundings. He has a lot of energy but also enjoys his alone time. Rocky can be a little stubborn, which adds to his unique charm, but he requires patience during training.
+                        </p>
+                    </div>
+                        <div class="d4">
+                        <img class="dog4" src="https://images.dog.ceo/breeds/terrier-kerryblue/n02093859_2559.jpg" alt="dogs">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Duke</h3>
+                        <p>Duke is generally healthy, but he’s prone to dental issues, a common concern for small breeds. He’s been neutered and is up to date on vaccinations but requires regular dental care to prevent problems.
+                        </p>
+                    </div>
+                        <div class="d5">
+                        <img class="dog5" src="https://images.dog.ceo/breeds/setter-english/n02100735_2065.jpg" alt="dogs">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Spike</h3>
+                        <p>Spike is a stubborn and territorial Dachshund who tends to be aggressive with strangers and other animals. He has a tendency to nip when he feels threatened and is not easily trained, making him a challenging companion for most homes.
+                        </p>
+                    </div>
+                </div>
+                <div class="navibuttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>></button>
+                    <button>>></button>
+                </div>
+                <div class="cats">
+                    <div class="c1">
+                        <img class="cat1" src="https://cataas.com/cat" alt="cats">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Luna</h3>
+                        <p>Luna is a gentle, affectionate Ragdoll with a calm and loving temperament. She loves being held and cuddled, making her an ideal lap cat. Luna is friendly with children, other pets, and strangers, and her laid-back attitude makes her a perfect addition to any home.
+                        </p>
+                    </div>
+                    <div class="c2">
+                        <img class="cat2" src="http://theoldreader.com/kittens/450/450/" alt="cats">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Oliver</h3>
+                        <p>Oliver is a playful and intelligent Maine Coon with a curious nature. He loves to explore and is great with people, although he can be a bit aloof at times. While friendly, Oliver tends to be independent and prefers affection on his terms.
+                        </p>
+                    </div>
+                    <div class="c3">
+                        <img class="cat3" src="http://theoldreader.com/kittens/350/350/" alt="cats">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Shadow</h3>
+                        <p>Shadow is a quiet and reserved British Shorthair who enjoys his alone time. He can be affectionate but is often shy around new people. While he doesn’t mind being petted occasionally, he prefers to have his own space and isn’t a lap cat.
+                        </p>
+                    </div>
+                        <div class="c4">
+                        <img class="cat4" src="http://theoldreader.com/kittens/350/400/" alt="cats">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Ginger</h3>
+                        <p>Ginger is generally healthy but is prone to anxiety and stress-related issues. She’s spayed and up to date on vaccinations but may need behavioral management to curb her anxious tendencies.
+                        </p>
+                    </div>
+                        <div class="c5">
+                        <img class="cat5" src="http://theoldreader.com/kittens/500/500/" alt="cats">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Whiskers</h3>
+                        <p>Whiskers is a very high-maintenance Persian who struggles with severe grooming needs and health issues. He’s prone to aggression when handled and doesn’t enjoy being touched, making it difficult to provide him with the care he needs. Whiskers tends to be reclusive and is easily stressed by even small changes in his environment.
+                        </p>
+                    </div>
+                </div>
+                <div class="navibuttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>></button>
+                    <button>>></button>
+                </div>
+                <div class="bears">
+                    <div class="b1">
+                        <img class="bear2" src="https://placebear.com/100/100" alt="bears">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Baloo</h3>
+                        <p>Baloo is a gentle giant with a laid-back personality. Despite his size, he’s remarkably calm and friendly, making him a great companion for those who love the outdoors. He enjoys lounging around, eating honey, and taking long naps. His temperament is ideal for anyone looking for a peaceful and playful bear.
+                        </p>
+                    </div>
+                    <div class="b2">
+                        <img class="bear3" src="https://placebear.com/200/200" alt="bears">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Tundra</h3>
+                        <p>Tundra is a strong, majestic polar bear with a calm but independent nature. While she can be affectionate, she enjoys her solitude and loves cold environments. She’s playful in water and enjoys fishing, but tends to be a bit aloof compared to more social bears.
+                        </p>
+                    </div>
+                    <div class="b3">
+                        <img class="bear4" src="https://placebear.com/400/400" alt="bears">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Kodi</h3>
+                        <p>Kodi is a curious and adventurous black bear with a tendency to wander. He’s intelligent and loves exploring, but his curiosity can sometimes get him into trouble. While generally friendly, Kodi can be unpredictable and may become defensive when startled.
+                        </p>
+                    </div>
+                        <div class="b4">
+                        <img class="bear5" src="https://placebear.com/500/500" algt="bears">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Grizzle</h3>
+                        <p>Grizzle is a stubborn and solitary brown bear who prefers to be left alone. He can be aggressive when his personal space is invaded and doesn’t enjoy being around humans or other animals. His temperament makes him a challenge for most owners.
+                        </p>
+                    </div>
+                        <div class="b5">
+                        <img class="bear6" src="https://placebear.com/600/600" alt="bears">
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Ursus</h3>
+                        <p>Ursus is a difficult and unpredictable Sloth Bear who can be highly aggressive and defensive. She’s easily startled and prone to attacking when she feels threatened. Ursus doesn’t enjoy human interaction and prefers to stay hidden most of the time.
+                        </p>
+                    </div>
+                </div>
+                <div class="navibuttons">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>></button>
+                    <button>>></button>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <div class="left-side"></div>
+                <div class="paw">
+                    <i class="fa fa-paw"></i>
+                </div>
+              <div class="logo"> PetHive</div>
+            <div id="footer-container"></div>
             <section>
-                <h4>Filter by Month</h4>
+                <!--Site map will go here-->
                 <nav>
-                    <ul>
-                        <li><a href=""></a>Filter for January</li>
-                        <li><a href=""></a>Filter for Fevruary</li>
-                        <li><a href=""></a>Filter for March</li>
+                    <ul class="flexbox">
+                        <div>
+                            <li>
+                                <a href="">Home</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Our Pets</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="">Fire the Missiles</a>
+                        </div>
+                        <div>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Cookie Policy</a>
+                            </li>    
+                        </div>
                     </ul>
                 </nav>
             </section>
-            <Section>
-                <h4>Filter by Category</h4>
-                <nav>
-                    <ul>
-                        <li><a href=""></a>Puppies</li>
-                        <li><a href=""></a>Dogs</li>
-                        <li><a href=""></a>Cats</li>
-                        <li><a href=""></a>Hedgehogs</li>
-            </Section>
-        </aside> 
-        <div>
-            <article>
-                <header>
-                    <!-- Article's Header Goes Here -->
-                     <h2>Ten Amusing Facts About Dogs</h2>
-                     <h3>Read Time 5 Minutes</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem velit eveniet libero, quisquam assumenda explicabo aliquam est quo dolorem, itaque commodi quod obcaecati. Sapiente dolor qui totam accusamus impedit porro corrupti facilis excepturi ipsum cum? Maiores, numquam deleniti pariatur nisi voluptas nemo aspernatur maxime enim saepe id ad sit explicabo eum delectus aut officia incidunt quia sequi ipsa ipsam! Fugiat illo, sapiente blanditiis iure asperiores doloribus qui voluptatibus sit aliquam, laborum aperiam neque? Cum facere corporis nesciunt porro ex quos nostrum, perferendis eius deleniti ea earum fugiat dolorem commodi provident temporibus ducimus reiciendis? Molestias unde iusto odio ab quasi!</p>
-                    <blockquote>
-                        "I love puppies!" - <cite>Zsolt, 2024</cite>
-                    </blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis, amet ratione doloremque minima aliquam. Quis rem non nulla harum unde adipisci iste ea veritatis nemo. Earum aliquid consequuntur dicta magnam, tempora esse accusamus ipsa vero. Qui excepturi fugiat ad veniam dolor, impedit voluptatem, animi ut laborum dolorum, accusantium aliquam laboriosam quam quidem voluptates. Doloribus corporis autem unde eos dignissimos corrupti perspiciatis deserunt molestias voluptatibus, natus delectus quos ab eligendi quidem beatae et. Obcaecati dolore atque culpa labore? Similique, maxime!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit minus molestiae laboriosam necessitatibus pariatur quisquam rerum illum atque iste dicta inventore consectetur quam amet nihil ab quo aliquam placeat ex autem dolore cum, vitae quasi ipsam obcaecati! Nobis amet placeat, adipisci officiis illo nulla, odio distinctio rerum cum et praesentium? Veniam deleniti assumenda nobis beatae vitae voluptatum nostrum reprehenderit dolore eos, omnis optio soluta sunt ea inventore harum mollitia numquam dolor accusamus, modi ratione nulla. Inventore, excepturi culpa corporis magni molestiae qui libero autem quos ipsa assumenda accusamus repellat saepe ut. Nulla eum laudantium quis, in cupiditate molestias exercitationem nostrum inventore neque accusamus modi itaque veniam eius adipisci distinctio ex quisquam magni nemo. Cumque praesentium minima, molestiae vitae voluptatem nemo repellat. Quasi excepturi eius tempore totam voluptatibus veniam quos sunt velit voluptates aperiam cum autem in officia aut assumenda cumque distinctio mollitia nesciunt dicta atque rerum nemo facere, doloribus quod.</p>
-                </main>
-                <footer>
-                    <h2>Author: Vladimir Zakharov</h2>
-                    <img src="https://placebear.com/100/100" alt="A Profile Pick of the Bear">
-                    <h3>Last posted: 01-08-2024</h3>
-                    <a href="https://www.cv-library.co.uk/job/222142682/Graduate-Structural-Civil-Engineer/apply" target="_blank">Author's profile </a>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <!-- Article's Header Goes Here -->
-                     <h2>Ten Amusing Facts About Dogs</h2>
-                     <h3>Read Time 5 Minutes</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem velit eveniet libero, quisquam assumenda explicabo aliquam est quo dolorem, itaque commodi quod obcaecati. Sapiente dolor qui totam accusamus impedit porro corrupti facilis excepturi ipsum cum? Maiores, numquam deleniti pariatur nisi voluptas nemo aspernatur maxime enim saepe id ad sit explicabo eum delectus aut officia incidunt quia sequi ipsa ipsam! Fugiat illo, sapiente blanditiis iure asperiores doloribus qui voluptatibus sit aliquam, laborum aperiam neque? Cum facere corporis nesciunt porro ex quos nostrum, perferendis eius deleniti ea earum fugiat dolorem commodi provident temporibus ducimus reiciendis? Molestias unde iusto odio ab quasi!</p>
-                    <blockquote>
-                        "I love puppies!" - <cite>Zsolt, 2024</cite>
-                    </blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis, amet ratione doloremque minima aliquam. Quis rem non nulla harum unde adipisci iste ea veritatis nemo. Earum aliquid consequuntur dicta magnam, tempora esse accusamus ipsa vero. Qui excepturi fugiat ad veniam dolor, impedit voluptatem, animi ut laborum dolorum, accusantium aliquam laboriosam quam quidem voluptates. Doloribus corporis autem unde eos dignissimos corrupti perspiciatis deserunt molestias voluptatibus, natus delectus quos ab eligendi quidem beatae et. Obcaecati dolore atque culpa labore? Similique, maxime!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit minus molestiae laboriosam necessitatibus pariatur quisquam rerum illum atque iste dicta inventore consectetur quam amet nihil ab quo aliquam placeat ex autem dolore cum, vitae quasi ipsam obcaecati! Nobis amet placeat, adipisci officiis illo nulla, odio distinctio rerum cum et praesentium? Veniam deleniti assumenda nobis beatae vitae voluptatum nostrum reprehenderit dolore eos, omnis optio soluta sunt ea inventore harum mollitia numquam dolor accusamus, modi ratione nulla. Inventore, excepturi culpa corporis magni molestiae qui libero autem quos ipsa assumenda accusamus repellat saepe ut. Nulla eum laudantium quis, in cupiditate molestias exercitationem nostrum inventore neque accusamus modi itaque veniam eius adipisci distinctio ex quisquam magni nemo. Cumque praesentium minima, molestiae vitae voluptatem nemo repellat. Quasi excepturi eius tempore totam voluptatibus veniam quos sunt velit voluptates aperiam cum autem in officia aut assumenda cumque distinctio mollitia nesciunt dicta atque rerum nemo facere, doloribus quod.</p>
-                </main>
-                <footer>
-                    <h2>Author: Vladimir Zakharov</h2>
-                    <img src="https://placebear.com/100/100" alt="A Profile Pick of the Bear">
-                    <h3>Last posted: 01-08-2024</h3>
-                    <a href="https://www.cv-library.co.uk/job/222142682/Graduate-Structural-Civil-Engineer/apply" target="_blank">Author's profile </a>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <!-- Article's Header Goes Here -->
-                     <h2>Ten Amusing Facts About Dogs</h2>
-                     <h3>Read Time 5 Minutes</h3>
-                </header>
-                <main>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quidem velit eveniet libero, quisquam assumenda explicabo aliquam est quo dolorem, itaque commodi quod obcaecati. Sapiente dolor qui totam accusamus impedit porro corrupti facilis excepturi ipsum cum? Maiores, numquam deleniti pariatur nisi voluptas nemo aspernatur maxime enim saepe id ad sit explicabo eum delectus aut officia incidunt quia sequi ipsa ipsam! Fugiat illo, sapiente blanditiis iure asperiores doloribus qui voluptatibus sit aliquam, laborum aperiam neque? Cum facere corporis nesciunt porro ex quos nostrum, perferendis eius deleniti ea earum fugiat dolorem commodi provident temporibus ducimus reiciendis? Molestias unde iusto odio ab quasi!</p>
-                    <blockquote>
-                        "I love puppies!" - <cite>Zsolt, 2024</cite>
-                    </blockquote>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis, amet ratione doloremque minima aliquam. Quis rem non nulla harum unde adipisci iste ea veritatis nemo. Earum aliquid consequuntur dicta magnam, tempora esse accusamus ipsa vero. Qui excepturi fugiat ad veniam dolor, impedit voluptatem, animi ut laborum dolorum, accusantium aliquam laboriosam quam quidem voluptates. Doloribus corporis autem unde eos dignissimos corrupti perspiciatis deserunt molestias voluptatibus, natus delectus quos ab eligendi quidem beatae et. Obcaecati dolore atque culpa labore? Similique, maxime!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit minus molestiae laboriosam necessitatibus pariatur quisquam rerum illum atque iste dicta inventore consectetur quam amet nihil ab quo aliquam placeat ex autem dolore cum, vitae quasi ipsam obcaecati! Nobis amet placeat, adipisci officiis illo nulla, odio distinctio rerum cum et praesentium? Veniam deleniti assumenda nobis beatae vitae voluptatum nostrum reprehenderit dolore eos, omnis optio soluta sunt ea inventore harum mollitia numquam dolor accusamus, modi ratione nulla. Inventore, excepturi culpa corporis magni molestiae qui libero autem quos ipsa assumenda accusamus repellat saepe ut. Nulla eum laudantium quis, in cupiditate molestias exercitationem nostrum inventore neque accusamus modi itaque veniam eius adipisci distinctio ex quisquam magni nemo. Cumque praesentium minima, molestiae vitae voluptatem nemo repellat. Quasi excepturi eius tempore totam voluptatibus veniam quos sunt velit voluptates aperiam cum autem in officia aut assumenda cumque distinctio mollitia nesciunt dicta atque rerum nemo facere, doloribus quod.</p>
-                </main>
-                <footer>
-                    <h2>Author: Vladimir Zakharov</h2>
-                    <img src="https://placebear.com/100/100" alt="A Profile Pick of the Bear">
-                    <h3>Last posted: 01-08-2024</h3>
-                    <a href="https://www.cv-library.co.uk/job/222142682/Graduate-Structural-Civil-Engineer/apply" target="_blank">Author's profile </a>
-                </footer>
-            </article>
-        </div>  
-    </div>
-    <!-- main content of the website can ho here -->
-<hr>
-<h2>Sign up for our newsletter</h2>
-    <form action="" method="">
-        <label for="first_name">First Name</label>
-        <input type="text" id="first_name" name="first_name" required>
-        <br>
-
-        <label for="last_name">Last Name</label>
-        <input type="text" id="last_name" name="last_name" required>
-        <br>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-        <br>
-
-        <label for="favourite_animal">Favourite Animal</label>
-        <input type="radio" name="favourite_animal" id="Dog" value="Dog">
-        <label for="dog">Dog</label>
-        <label for="favourite_animal">Favourite Animal</label>
-        <input type="radio" name="favourite_animal" id="Cat" value="Cat">
-        <label for="dog">Cat</label>
-        <label for="favourite_animal">Favourite Animal</label>
-        <input type="radio" name="favourite_animal" id="Hedgehog" value="Hedgehog">
-        <label for="dog">Hedgehog</label>
-        <br>
-
-        <label for="country">Country</label>
-        <select name="country" id="country">
-            <option value="england">England</option>
-            <option value="england">Scotland</option>
-            <option value="england">Wales</option>
-            <option value="england">Northern Ireland</option>
-        </select>
-        <br>
-
-        <label for="bio">Biography</label>
-        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-        <br>
-
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <label for="subscribe">Subscribe to our newsletter</label>
-        <br>
-
-        <input type="submit" value="Send!">
-
-    </form>
-    <hr>
-
-</main>
-<footer>
-     <!-- footer goes here -->
-    <h2>BrightBlogSite</h2>
-    <section>
-        <nav>
-            <ul id="footer-ul">
-                <div>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Careers</li> 
-                </div>
-                <div>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Cookie Policy</a></li> 
-                </div>
-            </ul>
-        </nav>
-    </section>
-</footer>
-</body>
+        </footer>
+    </body>
 </html>
